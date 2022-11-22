@@ -1,0 +1,525 @@
+body {
+  margin: 0;
+}
+
+.header-cont {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, auto);
+  height: 70px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.dropdowns {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+.button {
+  padding: 6px;
+  width: 50px;
+}
+
+.image {
+  background-image: url("https://img.freepik.com/foto-gratis/elegante-mujer-sonriente-gafas-camisa-rayas-usando-computadora-portatil-mientras-sienta-mesa-cocina_171337-13030.jpg?w=2000");
+  text-align: left;
+  min-height: 95%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  opacity: 0.8;
+}
+
+.main img {
+  object-fit: cover;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-left: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 13vh;
+  opacity: 3;
+  box-shadow: 10px;
+}
+h2 {
+  color: rgb (5, 31, 78);
+  margin-top: 100px;
+  margin-left: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 8vh;
+  opacity: 3;
+  box-shadow: 10px;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown4:hover .dropdown-content4 {
+  display: block;
+}
+
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content5 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown5:hover .dropdown-content5 {
+  display: block;
+}
+.container-main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  column-gap: 100px;
+  row-gap: 200px;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  background-color: #b0cff3;
+  opacity: 1;
+  height: fit-content;
+}
+
+.maintext {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 8vh;
+  opacity: 3;
+  box-shadow: 10px;
+  margin-top: 20px;
+}
+.imgschedule {
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80;
+}
+
+.header1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -200;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 4vh;
+}
+.text1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 200;
+}
+.imgteachers {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -400;
+}
+.header2 {
+  display: grid;
+  justify-content: flex-start;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 4vh;
+  margin-top: 80;
+}
+.text2 {
+  display: grid;
+  margin: 100;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.header3 {
+  display: grid;
+  justify-content: flex-start;
+  margin-top: -250px;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 4vh;
+}
+.text3 {
+  margin-left: 200px;
+}
+.imgspeaking {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-around;
+  height: fit-content;
+  background-color: #d8b78a;
+  opacity: 1;
+  padding-top: 100px;
+  row-gap: 100px;
+}
+.imgwork {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  margin-top: 50px;
+}
+.wrap {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  grid-template-rows: auto;
+}
+.header4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 6vh;
+}
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 3vh;
+  margin-top: -100px;
+}
+.button2 {
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: rgb (5, 31, 78);
+  display: flex;
+  width: 230px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #b0cff3;
+  height: fit-content;
+  padding-top: 100px;
+}
+
+.textvideo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb (5, 31, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 7vh;
+  opacity: 0.8;
+  box-shadow: 10px;
+  margin-top: 100px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.container5 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/01/08/Golden-confetti-transparent-background-Graphics-23129289-1-580x387.jpg);
+  opacity: 0.8;
+  height: 500px;
+  margin: 150px;
+  border-radius: 100px;
+  padding: 100px;
+}
+.number1 {
+  color: rgb (5, 31, 78);
+  font-size: 10vh;
+}
+.smalltext {
+  display: grid;
+  justify-content: center;
+  align-items: end;
+}
+.container6 {
+  background-color: #d8b78a;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  opacity: 0.8;
+}
+.lastext {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: rgb (5, 31, 78);
+  font-size: 8vh;
+}
+.lastext2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: rgb (5, 31, 78);
+}
+.submitbutton {
+  width: 150 px;
+  display: grid;
+  justify-content: center;
+  align-items: end;
+}
+
+.menu {
+  height: 50px;
+  display: none;
+}
+
+@media screen and (max-width: 1250px) {
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .container2 {
+    grid-template-columns: auto;
+  }
+  .header1,
+  .text1,
+  .imgschedule {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .header2,
+  .text2,
+  .imgteachers {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .text2 {
+    transform: translateY(50%);
+  }
+  .header3,
+  .text3,
+  .imgspeaking {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .text3 {
+    margin-bottom: 50px;
+  }
+  span.number1{
+    font-size: 7vh;
+  }
+}
+.smalltext {
+  font-size: 12px;
+}
+.container5 {
+  padding: 70px;
+  height: 350px;
+  margin: 70px;
+}
+
+@media screen and (max-width: 860px) {
+  .blueBox {
+    grid-template-columns: repeat(1, auto);
+  }
+  .image h1 {
+    margin: 100px 0;
+    text-align: start;
+    color: rgb (5, 31, 78);
+    font-size: 10vh;
+    margin-left: 50px;
+}
+span.number1{
+  font-size: 5vh;
+}
+.smalltext{
+  font-size: 10px;
+}
+.container5 {
+  padding: 50px;
+  height: 300px;
+  margin: 50px;
+}
+@media screen and (max-width: 550px) {
+  .dropdowns {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .container2 {
+    margin: 0;
+  }
+
+  .maintext {
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 30px 0;
+    text-align: center;
+  }
+  .main .image {
+    justify-content: left;
+    text-align: end;
+    align-items: center;
+  }
+  .image h1 {
+    margin: 30px 0;
+    text-align: start;
+    color: rgb (5, 31, 78);
+    font-size: 6vh;
+    margin-left: 50px;
+  }
+  .image {
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+  .imgwork img {
+    display: none;
+  }
+
+  .wrap {
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .box4 {
+    margin: 0;
+  }
+
+  .button2 {
+    margin: 0;
+  }
+
+  .container3 {
+    justify-content: center;
+  }
+  .video iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .container6 {
+    margin: 0;
+  }
+  span.number1 {
+    font-size: 3vh;
+  }
+  .smalltext {
+font-size: 8px;
+  }
+  .container5 {
+    padding: 30px;
+    height: 200px;
+    margin: 20px;
+  }
